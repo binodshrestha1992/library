@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fremantle Library Booklist">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Fremantle City Library</title>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <h2>FREMANTLE CITY LIBRARY</h2>
+        </div>
+        <div class="icon" onclick="onClickIcon()"><i class="fa fa-bars"></i></div>
+        <nav id="nav" class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"> <a href="home.html" class="nav-booklist">HOME</a></li>
+                <li class="nav-item"> <a href="booklist.html" class="nav-booklist">BOOKLIST</a></li>
+                <li class="nav-item"> <a href="about.html" class="nav-booklist">ABOUT</a></li>
+                <li class="nav-item"> <a href="contact.html" class="nav-booklist">CONTACT</a></li>
+                <li class="nav-item"> <a href="index.html" class="nav-booklist">LOGIN</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input type="text" placeholder="search book">
+            <button type="submit">SEARCH BOOK</button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="book-list-table">
+            <table>
+                <tr>
+                    <th>S.N.</th>
+                    <th>Book</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Rating</th>
+                    <th>Genre</th>
+                    <th>More Details</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><a href="book.html" class="table-book-img"><img src="./images/21.jpg"
+                                alt="images of pop in out book"></a></td>
+                    <td>HOLLOW WORLD</td>
+                    <td>TIKA TIKA </td>
+                    <td>
+                        <div class="rating">
+                            <ul class="rating-list">
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star-half-empty"></i></li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td>THRILLER</td>
+                    <td><a href="book.html">More Details</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="book.html" class="table-book-img"><img src="./images/photo-7.webp"
+                                alt="images of pop in out book"></a></td>
+                    <td>POP IN OUT</td>
+                    <td>NIKO </td>
+                    <td>
+                        <div class="rating">
+                            <ul class="rating-list">
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star-half-empty"></i></li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td>HORROR</td>
+                    <td><a href="book.html">More Details</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="book.html" class="table-book-img"><img src="./images/photo-5.webp"
+                                alt="images of pop in out book"></a></td>
+                    <td>I AM Ambitious</td>
+                    <td>NADIA </td>
+                    <td>
+                        <div class="rating">
+                            <ul class="rating-list">
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star-half-empty"></i></li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td>BIOGRAPHY</td>
+                    <td><a href="book.html">More Details</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="book.html" class="table-book-img"><img src="./images/photo-7.webp"
+                                alt="images of pop in out book"></a></td>
+                    <td>DIFFERENT FROM PHILLIPINES</td>
+                    <td>MA.KAT </td>
+                    <td>
+                        <div class="rating">
+                            <ul class="rating-list">
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star-half-empty"></i></li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td>BIOGRAPHY</td>
+                    <td><a href="book.html">More Details</a></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a href="book.html" class="table-book-img"><img src="./images/photo-5.webp"
+                                alt="images of pop in out book"></a></td>
+                    <td>ARTIFICIAL INTELLIGENCE</td>
+                    <td>CHAT GPT </td>
+                    <td>
+                        <div class="rating">
+                            <ul class="rating-list">
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star-half-empty"></i></li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td>SCIENCE AND TECHNOLOGY</td>
+                    <td><a href="book.html">More Details</a></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><a href="book.html" class="table-book-img"><img src="./images/photo-3.webp"
+                                alt="images of pop in out book"></a></td>
+                    <td>MACHINE LEARNING</td>
+                    <td>BINOD SHRESTHA </td>
+                    <td>
+                        <div class="rating">
+                            <ul class="rating-list">
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star-half-empty"></i></li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td>SCIENCE AND TECHNOLOGY</td>
+                    <td><a href="book.html">More Details</a></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><a href="book.html" class="table-book-img"><img src="./images/photo-1.webp"
+                                alt="images of pop in out book"></a></td>
+                    <td>CHAT GPT</td>
+                    <td>ELON MUSK </td>
+                    <td>
+                        <div class="rating">
+                            <ul class="rating-list">
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star-half-empty"></i></li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td>TECHNOLOGY</td>
+                    <td><a href="book.html">More Details</a></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><a href="book.html" class="table-book-img"><img src="./images/43.jpg"
+                                alt="images of pop in out book"></a></td>
+                    <td>FUTURE GENERATION</td>
+                    <td>BINOD SHRESTHA </td>
+                    <td>
+                        <div class="rating">
+                            <ul class="rating-list">
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star-half-empty"></i></li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td>SCIENCE FICTION</td>
+                    <td><a href="book.html">More Details</a></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><a href="book.html" class="table-book-img"><img src="./images/44.jpg"
+                                alt="images of pop in out book"></a></td>
+                    <td>HIGHWAY TO HELL</td>
+                    <td>DILLON </td>
+                    <td>
+                        <div class="rating">
+                            <ul class="rating-list">
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star-half-empty"></i></li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td>ACTION</td>
+                    <td><a href="book.html">More Details</a></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><a href="book.html" class="table-book-img"><img src="./images/313533.jpg"
+                                alt="images of pop in out book"></a></td>
+                    <td>WORLD BENEATH THE WORLD</td>
+                    <td>NIKO</td>
+                    <td>
+                        <div class="rating">
+                            <ul class="rating-list">
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star-half-empty"></i></li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td>SCIENCE FICTION</td>
+                    <td><a href="book.html">More Details</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="booklist-container popular">
+            <div class="container-left-side popular-left">
+                <h2>MOST POPULAR</h2>
+            </div>
+            <div class="container-right-side popular-right">
+                <div class="book primary-color">
+                    <img src="./images/11.jpg" alt="famous person">
+                    <h2 class="book-title">POP IN AND OUT</h2>
+                    <p><em>Author : </em> Binod Shrestha</p>
+                    <p class="book-genre">DRAME/ACTION</p>
+                    <div class="rating">
+                        <ul class="rating-list">
+                            <li class="rating-item"><i class="fa fa-star"></i></li>
+                            <li class="rating-item"><i class="fa fa-star"></i></li>
+                            <li class="rating-item"><i class="fa fa-star"></i></li>
+                            <li class="rating-item"><i class="fa fa-star"></i></li>
+                            <li class="rating-item"><i class="fa fa-star-half-empty"></i></li>
+                        </ul>
+                    </div>
+                    <a href="book.html" class="book-more-details">MORE DETAILS</a>
+                </div>
+                <div class="book primary-color">
+                    <img src="./images/2.jpg" alt="dirty mind">
+                    <h2 class="book-title">MONEY</h2>
+                    <p><em>Author : </em> Binod Shrestha</p>
+                    <p class="book-genre">DRAME/ACTION</p>
+                    <div class="rating">
+                        <ul class="rating-list">
+                            <li class="rating-item"><i class="fa fa-star"></i></li>
+                            <li class="rating-item"><i class="fa fa-star"></i></li>
+                            <li class="rating-item"><i class="fa fa-star"></i></li>
+                            <li class="rating-item"><i class="fa fa-star"></i></li>
+                            <li class="rating-item"><i class="fa fa-star-half-empty"></i></li>
+                        </ul>
+                    </div>
+                    <a href="book.html" class="book-more-details">MORE DETAILS</a>
+                </div>
+                <div class="book primary-color">
+                    <img src="./images/21.jpg" alt="algorithm">
+                    <h2 class="book-title">FAME AND MONEY</h2>
+                    <p><em>Author : </em> Binod Shrestha</p>
+                    <p class="book-genre">DRAME/ACTION</p>
+                    <div class="rating">
+                        <ul class="rating-list">
+                            <li class="rating-item"><i class="fa fa-star"></i></li>
+                            <li class="rating-item"><i class="fa fa-star"></i></li>
+                            <li class="rating-item"><i class="fa fa-star"></i></li>
+                            <li class="rating-item"><i class="fa fa-star"></i></li>
+                            <li class="rating-item"><i class="fa fa-star-half-empty"></i></li>
+                        </ul>
+                    </div>
+                    <a href="book.html" class="book-more-details">MORE DETAILS</a>
+                </div>
+            </div>
+            <div class="booklist-container recently">
+                <div class="container-left-side recently-left">
+                    <h2>RECENTLY PUBLISHED</h2>
+                </div>
+                <div class="container-right-side">
+                    <div class="book primary-color">
+                        <img src="./images/11.jpg" alt="famous person">
+                        <h2 class="book-title">POP IN AND OUT</h2>
+                        <p><em>Author : </em> Binod Shrestha</p>
+                        <p class="book-genre">DRAME/ACTION</p>
+                        <div class="rating">
+                            <ul class="rating-list">
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star-half-empty"></i></li>
+                            </ul>
+                        </div>
+                        <a href="book.html" class="book-more-details">MORE DETAILS</a>
+                    </div>
+                    <div class="book primary-color">
+                        <img src="./images/2.jpg" alt="dirty mind">
+                        <h2 class="book-title">MONEY</h2>
+                        <p><em>Author : </em> Binod Shrestha</p>
+                        <p class="book-genre">DRAME/ACTION</p>
+                        <div class="rating">
+                            <ul class="rating-list">
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star-half-empty"></i></li>
+                            </ul>
+                        </div>
+                        <a href="book.html" class="book-more-details">MORE DETAILS</a>
+                    </div>
+                    <div class="book primary-color">
+                        
+                        <img src="./images/21.jpg" alt="algorithm">
+                        
+                        <h2 class="book-title">FAME AND MONEY</h2>
+                        <p><em>Author : </em> Binod Shrestha </p>
+                        <h5>Bindaas</h5>
+                        <p class="book-genre">DRAME/ACTION</p>
+                        <div class="rating">
+                            <ul class="rating-list">
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star"></i></li>
+                                <li class="rating-item"><i class="fa fa-star-half-empty"></i></li>
+                            </ul>
+                        </div>
+                        <a href="book.html" class="book-more-details">MORE DETAILS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-top">
+            <div class="footer-top-page">
+                <ul class="footer-top-page-list">
+                    <li class="footer-top-page-list-item"><a href="home.html"
+                            class="footer-top-page-list-item-link">HOME</a></li>
+                    <li class="footer-top-page-list-item"><a href="booklist.html"
+                            class="footer-top-page-list-item-link">BOOKLIST</a></li>
+                    <li class="footer-top-page-list-item"><a href="about.html"
+                            class="footer-top-page-list-item-link">ABOUT</a></li>
+                    <li class="footer-top-page-list-item"><a href="contact.html"
+                            class="footer-top-page-list-item-link">CONTACT</a></li>
+                    <li class="footer-top-page-list-item"><a href="indec.html"
+                            class="footer-top-page-list-item-link">LOGIN</a></li>
+                </ul>
+            </div>
+            <div class="footer-top-contact">
+                <ul class="footer-top-contact-list">
+                    <li class="footer-top-contact-list-item"><a href=""
+                            class="footer-top-contact-list-item-link">045959399339</a></li>
+                    <li class="footer-top-contact-list-item"><a href=""
+                            class="footer-top-contact-list-item-link">info@fremantlecitylibrary.com.au</a></li>
+                </ul>
+            </div>
+            <div class="footer-top-socialmedia"></div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; copyright by Fremantle City Library</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color: darkcyan;
+        }
+        .nav-list{
+            list-style: none;
+            text-align: center;
+        }
+        .dropdwn-item, .nav-item{
+            display: inline-block;
+            margin:0;
+            padding:0;
+        }
+        a{
+            text-decoration: none;
+        }
+        nav{
+            position: relative;
+        }
+        .dropdwn-link, .nav-link{
+            margin:0;
+            padding:1.5rem;
+            display: block;
+        }
+        .nav-link:hover{
+            border-bottom: 2px solid var(--primary-color);
+        }
+        .dropdwn-list{
+            position:absolute;
+            margin:0;
+            padding:0;
+            background-color:var(--primary-color);
+            top:100%;
+            list-style: none;
+            left:50%;
+            text-align: center;
+            transform:translateX(-50%);
+            width:100%;
+            display: none;
+        }
+        nav:has(:hover, :focus) .nav-link:not(:hover, :focus) ~ .dropdwn-list{
+            display: none;
+        }
+        .nav-link:has(:hover, :focus) .dropdwn-list{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <div class="dropdown">
+                <a href="" class="nav-link">Classes <i class="fa fa-angle-down"></i></a>
+                    <ul class="dropdwn-list">
+                        <li class="dropdwn-item">
+                            <a href="#" class="dropdwn-link">Something Here</a>
+                        </li>
+                        <li class="dropdwn-item">
+                            <a href="#" class="dropdwn-link">Something Here</a>
+                        </li>
+                        <li class="dropdwn-item">
+                            <a href="#" class="dropdwn-link">Something Here</a>
+                        </li>
+                        <li class="dropdwn-item">
+                            <a href="#" class="dropdwn-link">Something Here</a>
+                        </li>
+                        <li class="dropdwn-item">
+                            <a href="#" class="dropdwn-link">Something Here</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Classes</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Classes</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Classes</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Classes</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
